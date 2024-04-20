@@ -42,11 +42,12 @@ header {
     transition:0.4s ease-in-out;
     z-index:2;
 }
-header table {
+header section {
     width:100%;
 }
 #logo {
     width:30%;
+    float: left;
 }
 #navigation {
     width:80%;
@@ -386,7 +387,7 @@ button:focus {
         padding:4vh 2vw;
         position:absolute;
     }
-    #header table tr td {
+    #header section div {
         width:100%;
         display:block;
         text-align:center;
